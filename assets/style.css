@@ -273,8 +273,8 @@ body {
     }
   
     footer {
-      background-color: #313131;
-      color: whitesmoke;
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
     }
   }
   
@@ -289,18 +289,28 @@ body {
 
 
 .logo-menu img:hover {
-    transform: scale(1.1); /* Aumenta el tamaño en un 10% */
-    transition: transform 0.3s ease; /* Hace la transición suave */
+    transform: scale(1.1); 
+    transition: transform 2s ease; 
 }
 
 
 .sub-card img,
 .sub-card-hide img {
-    filter: grayscale(100%); /* Convierte la imagen a escala de grises */
-    transition: filter 0.3s ease; /* Suaviza la transición al cambiar el efecto */
+    filter: grayscale(100%); 
+    transform: scale(1);
+    transition: filter 2s ease; 
 }
 
 .sub-card:hover img,
 .sub-card-hide:hover img {
-    filter: grayscale(0%); /* Restablece la imagen a color */
+    filter: grayscale(10%); 
+    transform: scale(1.1);
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
