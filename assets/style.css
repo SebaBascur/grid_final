@@ -21,7 +21,7 @@ body {
   
   nav {
     /* version_tablet */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #ffffff;
     color: #b1b1b1;
     grid-area: nav;
@@ -288,4 +288,19 @@ body {
   }
 
 
-  
+.logo-menu img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño en un 10% */
+    transition: transform 0.3s ease; /* Hace la transición suave */
+}
+
+
+.sub-card img,
+.sub-card-hide img {
+    filter: grayscale(100%); /* Convierte la imagen a escala de grises */
+    transition: filter 0.3s ease; /* Suaviza la transición al cambiar el efecto */
+}
+
+.sub-card:hover img,
+.sub-card-hide:hover img {
+    filter: grayscale(0%); /* Restablece la imagen a color */
+}
