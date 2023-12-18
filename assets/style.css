@@ -314,3 +314,24 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+
+footer {
+    background-color: rgb(255, 255, 255);
+    color: #b6b6b6;
+    grid-area: footer;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.social-media-links img {
+    margin: 0 5px;
+}
